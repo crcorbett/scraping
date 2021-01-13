@@ -170,9 +170,9 @@ def apo_scraper(sleep_period, previous_data=None):
 
 def apo_scrape():
 
-	if(os.path.isfile('../Data/apo.json')):
+	if(os.path.isfile('Data/apo.json')):
 		# Load previous scrape data
-		with open('../Data/apo.json', 'r') as apo_file:
+		with open('Data/apo.json', 'r') as apo_file:
 			previous_data = json.load(apo_file)
 
 		# Retrieve most recent decision from last update
@@ -186,7 +186,7 @@ def apo_scrape():
 			APO_decisions['decisions'].append(previous_data['decisions'][i])
 
 		# Save file
-		with open('../Data/apo.json', 'w', encoding='utf-8') as f:
+		with open('Data/apo.json', 'w', encoding='utf-8') as f:
 			json.dump(APO_decisions, f, indent=4)
 
 	else:
@@ -194,5 +194,5 @@ def apo_scrape():
 		APO_decisions = apo_scraper(1, previous_data=[0,0])
 
 		# Save file
-		with open('../Data/apo.json', 'w', encoding='utf-8') as f:
+		with open('Data/apo.json', 'w', encoding='utf-8') as f:
 			json.dump(APO_decisions, f, indent=4)
