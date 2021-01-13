@@ -1,2 +1,6 @@
 beautifulsoup4
 selenium
+dateutil
+re
+json
+time
