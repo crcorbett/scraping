@@ -5,7 +5,7 @@ import re
 import dateutil.parser as dparser
 import json
 from utilities import string_clean
-
+import os.path
 
 def apo_scraper(sleep_period, previous_data=None):
 	chrome_options = webdriver.ChromeOptions()
@@ -47,7 +47,7 @@ def apo_scraper(sleep_period, previous_data=None):
 			date_text = subpage.find_all(string=re.compile("Decision"))[0].string
 			datetime_raw = dparser.parse(date_text, fuzzy=True)
 			date = datetime_raw.strftime('%d %B %Y')
-			datetime = datetime_raw.strftime('%d-%m-%Y')
+			datetime = datetime_raw.strftime('%Y-%m-%d')
 		else:
 			print("Unable to retrieve date for: " + str(title))
 			date = ""
@@ -169,20 +169,30 @@ def apo_scraper(sleep_period, previous_data=None):
 
 
 def apo_scrape():
-	# Load previous scrape data
-	with open('apo.json', 'r') as apo_file:
-		previous_data = json.load(apo_file)
 
-	# Retrieve most recent decision from last update
-	last_decision = [previous_data['decisions'][0]['title'], previous_data['decisions'][0]['date']]
+	if(os.path.isfile('apo.json')):
+		# Load previous scrape data
+		with open('apo.json', 'r') as apo_file:
+			previous_data = json.load(apo_file)
 
-	# Scrape
-	APO_decisions = apo_scraper(1, previous_data=[last_decision[0], last_decision[1]])
+		# Retrieve most recent decision from last update
+		last_decision = [previous_data['decisions'][0]['title'], previous_data['decisions'][0]['date']]
 
-	# Update file
-	for i in range(len(previous_data['decisions'])):
-		APO_decisions['decisions'].append(previous_data['decisions'][i])
+		# Scrape
+		APO_decisions = apo_scraper(1, previous_data=[last_decision[0], last_decision[1]])
 
-	# Save file
-	with open('apo.json', 'w', encoding='utf-8') as f:
-		json.dump(APO_decisions, f, indent=4)
+		# Update file
+		for i in range(len(previous_data['decisions'])):
+			APO_decisions['decisions'].append(previous_data['decisions'][i])
+
+		# Save file
+		with open('apo.json', 'w', encoding='utf-8') as f:
+			json.dump(APO_decisions, f, indent=4)
+
+	else:
+		# Scrape
+		APO_decisions = apo_scraper(1, previous_data=[0,0])
+
+		# Save file
+		with open('apo.json', 'w', encoding='utf-8') as f:
+			json.dump(APO_decisions, f, indent=4)
