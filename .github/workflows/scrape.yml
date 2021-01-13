@@ -5,6 +5,8 @@ name: AustLII Scrape Workflow
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
+  push:
+  workflow_dispatch:
   schedule:
     - cron: '0/5 * * * *' # Run every 5 minutes
 
@@ -17,7 +19,7 @@ jobs:
         python-version: [ 3.8 ]
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Python
+      - name: Setup Python ${{ matrix.python-version }}
         uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
