@@ -1,6 +1,3 @@
 beautifulsoup4
 selenium
 python-dateutil
-re
-json
-time
