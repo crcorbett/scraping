@@ -6,8 +6,8 @@ import dateutil.parser as dparser
 import json
 from utilities import string_clean
 
-def apo_scraper(sleep_period, previous_data=None):
 
+def apo_scraper(sleep_period, previous_data=None):
 	chrome_options = webdriver.ChromeOptions()
 	chrome_options.add_argument('--headless')
 
@@ -101,34 +101,39 @@ def apo_scraper(sleep_period, previous_data=None):
 
 			# Applicant - patent attorney
 			if (subpage.find_all(string=re.compile("Patent attorney for the applicant:", flags=re.I)) != []):
-				applicant_pa = subpage.find_all(string=re.compile("Patent attorney for the applicant:", flags=re.I))[0].string
-				applicant_pa = re.sub("\tPatent attorney for the applicant: ","",applicant_pa,flags=re.I)
+				applicant_pa = subpage.find_all(string=re.compile("Patent attorney for the applicant:", flags=re.I))[
+					0].string
+				applicant_pa = re.sub("\tPatent attorney for the applicant: ", "", applicant_pa, flags=re.I)
 			else:
 				print("Unable to retrieve applicant patent attorney details for: " + str(title))
 				applicant_pa = ""
 
 			# Applicant - counsel
 			if (subpage.find_all(string=re.compile("Counsel for the applicant:", flags=re.I)) != []):
-				applicant_counsel = subpage.find_all(string=re.compile("Counsel for the applicant:", flags=re.I))[0].string
+				applicant_counsel = subpage.find_all(string=re.compile("Counsel for the applicant:", flags=re.I))[
+					0].string
 				applicant_counsel = applicant_counsel.replace("Representation:\t", "")
-				applicant_counsel = re.sub("Counsel for the applicant: ","",applicant_counsel,flags=re.I)
+				applicant_counsel = re.sub("Counsel for the applicant: ", "", applicant_counsel, flags=re.I)
 			else:
 				print("Unable to retrieve applicant counsel details for: " + str(title))
 				applicant_counsel = ""
 
 			# Opponent - patent attorney
 			if (subpage.find_all(string=re.compile("Patent attorney for the opponent:", flags=re.I)) != []):
-				opponent_pa = subpage.find_all(string=re.compile("Patent attorney for the opponent:", flags=re.I))[0].string
-				opponent_pa = re.sub("\tPatent attorney for the opponent: ","",opponent_pa,flags=re.I).replace("\n", " ")
+				opponent_pa = subpage.find_all(string=re.compile("Patent attorney for the opponent:", flags=re.I))[
+					0].string
+				opponent_pa = re.sub("\tPatent attorney for the opponent: ", "", opponent_pa, flags=re.I).replace("\n",
+				                                                                                                  " ")
 			else:
 				print("Unable to retrieve opponent patent attorney details for: " + str(title))
 				opponent_pa = ""
 
 			# Opponent - counsel
 			if (subpage.find_all(string=re.compile("Counsel for the opponent:", flags=re.I)) != []):
-				opponent_counsel = subpage.find_all(string=re.compile("Counsel for the opponent:", flags=re.I))[0].string
+				opponent_counsel = subpage.find_all(string=re.compile("Counsel for the opponent:", flags=re.I))[
+					0].string
 				opponent_counsel = opponent_counsel.replace("Representation:\t", "").replace("\t", "")
-				opponent_counsel = re.sub("Counsel for the opponent: ","", opponent_counsel, flags=re.I)
+				opponent_counsel = re.sub("Counsel for the opponent: ", "", opponent_counsel, flags=re.I)
 			else:
 				print("Unable to retrieve opponent counsel details for: " + str(title))
 				opponent_counsel = ""
@@ -162,6 +167,7 @@ def apo_scraper(sleep_period, previous_data=None):
 	# Return dict object containing scraped decisions
 	return apo_decisions
 
+
 def apo_scrape():
 	# Load previous scrape data
 	with open('apo.json', 'r') as apo_file:
@@ -179,4 +185,4 @@ def apo_scrape():
 
 	# Save file
 	with open('apo.json', 'w', encoding='utf-8') as f:
-		json.dump(APO_decisions, f)
+		json.dump(APO_decisions, f, indent=4)
