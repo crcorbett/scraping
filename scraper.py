@@ -1,3 +1,3 @@
-from APO import apo_scrape
+from Scrapers.APO import apo_scrape
 
 apo_scrape()
