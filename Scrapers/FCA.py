@@ -261,5 +261,3 @@ def fca_scrape():
 		# Save file
 		with open('Data/fca.json', 'w', encoding='utf-8') as f:
 			json.dump(fca_filings, f, indent=4)
-
-fca_scrape()
