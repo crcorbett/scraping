@@ -20,7 +20,7 @@ def fca_scraper(previous_data=None):
 		'action_type': 'Intellectual_Property',
 		'court': 'any',
 		'file_status': 'any',
-		'filed_after': (datetime.today() - timedelta(days=90)).strftime('%d/%m/%Y'),
+		'filed_after': (datetime.today() - timedelta(days=30)).strftime('%d/%m/%Y'),
 		# Request is restricted to previous 90 days
 		'filed_before': '',
 		'given_name': '',
@@ -45,7 +45,7 @@ def fca_scraper(previous_data=None):
 	file_numbers = []
 
 	# Loop through pages
-	for i in range(1):  # (results_to_loop):
+	for i in range(results_to_loop):  # (results_to_loop):
 		query_dict['page'] = str(i + 1)
 		url = url_endpoint + urlencode(query_dict)
 
