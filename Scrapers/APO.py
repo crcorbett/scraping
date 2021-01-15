@@ -167,7 +167,6 @@ def apo_scraper(sleep_period, previous_data=None):
 	# Return dict object containing scraped decisions
 	return apo_decisions
 
-
 def apo_scrape():
 
 	if(os.path.isfile('Data/apo.json')):

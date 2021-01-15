@@ -232,8 +232,6 @@ def fca_scraper(previous_data=None):
 	return fca_filings
 
 def fca_scrape():
-	# Set working directory to repo root
-	os.chdir('../')
 
 	if(os.path.isfile('Data/fca.json')):
 		# Load previous scrape data
