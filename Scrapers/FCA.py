@@ -45,7 +45,7 @@ def fca_scraper(previous_data=None):
 	file_numbers = []
 
 	# Loop through pages
-	for i in range(results_to_loop):  # (results_to_loop):
+	for i in range(1):  # (results_to_loop):
 		query_dict['page'] = str(i + 1)
 		url = url_endpoint + urlencode(query_dict)
 
