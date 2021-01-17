@@ -8,6 +8,7 @@ from utilities import string_clean
 import os.path
 from urllib.parse import urlencode
 from datetime import datetime, timedelta
+from selenium.webdriver.support.ui import WebDriverWait
 
 def fca_scraper(previous_data=None):
 	chrome_options = webdriver.ChromeOptions()
@@ -36,8 +37,10 @@ def fca_scraper(previous_data=None):
 	browser.get(url)
 
 	# Obtain results page count
+	WebDriverWait(browser, 5).until(
+		lambda s: s.find_element_by_class_name('pagination').is_displayed()
+	)
 	main = BeautifulSoup(browser.page_source, "lxml")
-	sleep(0.5)
 	results_to_loop = int(main.select('.pagination')[0].contents[-3].string)
 
 	# Create dict to store info
