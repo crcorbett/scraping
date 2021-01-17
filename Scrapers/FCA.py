@@ -37,9 +37,10 @@ def fca_scraper(previous_data=None):
 	browser.get(url)
 
 	# Obtain results page count
-	WebDriverWait(browser, 5).until(
-		lambda s: s.find_element_by_class_name('pagination').is_displayed()
-	)
+# 	WebDriverWait(browser, 5).until(
+# 		lambda s: s.find_element_by_class_name('pagination').is_displayed()
+# 	)
+	sleep(2)
 	main = BeautifulSoup(browser.page_source, "lxml")
 	results_to_loop = int(main.select('.pagination')[0].contents[-3].string)
 
