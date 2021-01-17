@@ -38,6 +38,7 @@ def fca_scraper(previous_data=None):
 	# Obtain results page count
 	sleep(5)
 	main = BeautifulSoup(browser.page_source, "lxml")
+	print(main)
 	if (main.find_all(class_='pagination') != []):
 		results_to_loop = int(main.find_all(class_='pagination')[0].contents[-3].string)
 	else:
