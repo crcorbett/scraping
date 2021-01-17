@@ -20,7 +20,7 @@ def fca_scraper(previous_data=None):
 		'action_type': 'Intellectual_Property',
 		'court': 'any',
 		'file_status': 'any',
-		'filed_after': (datetime.today() - timedelta(days=80)).strftime('%d/%m/%Y'),
+		'filed_after': (datetime.today() - timedelta(days=89)).strftime('%d/%m/%Y'),
 		# Request is restricted to previous 90 days
 		'filed_before': '',
 		'given_name': '',
@@ -36,9 +36,7 @@ def fca_scraper(previous_data=None):
 	browser.get(url)
 
 	# Obtain results page count
-	sleep(5)
 	main = BeautifulSoup(browser.page_source, "lxml")
-	print(main)
 	if (main.find_all(class_='pagination') != []):
 		results_to_loop = int(main.find_all(class_='pagination')[0].contents[-3].string)
 	else:
