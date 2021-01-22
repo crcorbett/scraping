@@ -42,6 +42,10 @@ def apo_scraper(sleep_period, previous_data=None):
 		# Title details
 		title = subpage.title.text
 
+		# Link details
+		link = browser.current_url
+		print(link)
+
 		# Date details
 		if (subpage.find_all(string=re.compile("Decision")) != []):
 			date_text = subpage.find_all(string=re.compile("Decision"))[0].string
@@ -151,7 +155,8 @@ def apo_scraper(sleep_period, previous_data=None):
 				"applicant_pa": applicant_pa,
 				"applicant_counsel": applicant_counsel,
 				"opponent_pa": opponent_pa,
-				"opponent_counsel": opponent_counsel
+				"opponent_counsel": opponent_counsel,
+				"link": link
 			}
 
 			# Append decision to main dict
