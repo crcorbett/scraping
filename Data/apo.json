@@ -12,7 +12,8 @@
             "applicant_pa": "FB Rice",
             "applicant_counsel": "A Lang SC",
             "opponent_pa": "Krouzer IP",
-            "opponent_counsel": "C Dimitriadis SC and W H Wu"
+            "opponent_counsel": "C Dimitriadis SC and W H Wu",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/2.html"
         },
         {
             "title": "EIS GmbH v Novoluto GmbH [2021] APO 1 (5 January 2021)",
@@ -26,7 +27,8 @@
             "applicant_pa": "Spruson & Ferguson",
             "applicant_counsel": "Mr Chris Burgess",
             "opponent_pa": "Pizzeys Patent and Trade Mark Attorneys",
-            "opponent_counsel": "Mr Ben Fitzpatrick"
+            "opponent_counsel": "Mr Ben Fitzpatrick",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/1.html"
         },
         {
             "title": "CCL Secure Pty Ltd v De La Rue International Limited [2020] APO 56 (21 December 2020)",
@@ -40,21 +42,8 @@
             "applicant_pa": "",
             "applicant_counsel": "Frances\nSt John",
             "opponent_pa": "Ian Lindsay and Cici Cui",
-            "opponent_counsel": "Craig Smith"
-        },
-        {
-            "title": "Shell Internationale Research Maatschappij B.V. v Yara International ASA [2020] APO 55 (16 December 2020)",
-            "date": "16 December 2020",
-            "datetime": "2020-12-16",
-            "patent_application": "2016289420",
-            "patent_title": "Method for the manufacture of a urea-based particulate material containing elemental sulphur",
-            "applicant": "Yara International ASA",
-            "opponent": "Shell Internationale Research Maatschappij B.V.",
-            "delegate": "Dr Leslie F. McCaffery, Deputy Commissioner of Patents",
-            "applicant_pa": "Representation:WRAYS PTY LTD",
-            "applicant_counsel": "",
-            "opponent_pa": "PIZZEYS Patent and Trademark Attorneys",
-            "opponent_counsel": ""
+            "opponent_counsel": "Craig Smith",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/56.html"
         },
         {
             "title": "CQMS Pty Ltd v ESCO Group LLC [2020] APO 53 (16 December 2020)",
@@ -68,21 +57,23 @@
             "applicant_pa": "Rebecca Dutkowski and Shyama Jayaswal of\nMinterEllison and Wayne McMaster",
             "applicant_counsel": "Tom Cordiner",
             "opponent_pa": "Fraser Smith of Spruson & Ferguson",
-            "opponent_counsel": "Chris Burgess"
+            "opponent_counsel": "Chris Burgess",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/53.html"
         },
         {
-            "title": "CQMS Pty Ltd v ESCO Group LLC [2020] APO 54 (16 December 2020)",
+            "title": "Shell Internationale Research Maatschappij B.V. v Yara International ASA [2020] APO 55 (16 December 2020)",
             "date": "16 December 2020",
             "datetime": "2020-12-16",
-            "patent_application": "2016253640",
-            "patent_title": "Wear assembly",
-            "applicant": "ESCO Group LLC",
-            "opponent": "CQMS Pty Ltd",
-            "delegate": "Xavier Gisz",
-            "applicant_pa": "Rebecca Dutkowski and Shyama Jayaswal of\nMinterEllison and Wayne McMaster",
-            "applicant_counsel": "Tom Cordiner",
-            "opponent_pa": "Fraser Smith of Spruson & Ferguson",
-            "opponent_counsel": "Chris Burgess"
+            "patent_application": "2016289420",
+            "patent_title": "Method for the manufacture of a urea-based particulate material containing elemental sulphur",
+            "applicant": "Yara International ASA",
+            "opponent": "Shell Internationale Research Maatschappij B.V.",
+            "delegate": "Dr Leslie F. McCaffery, Deputy Commissioner of Patents",
+            "applicant_pa": "Representation:WRAYS PTY LTD",
+            "applicant_counsel": "",
+            "opponent_pa": "PIZZEYS Patent and Trademark Attorneys",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/55.html"
         },
         {
             "title": "Seed Terminator Holdings Pty Ltd v Dean Mayerle [2020] APO 52 (16 December 2020)",
@@ -96,7 +87,23 @@
             "applicant_pa": "",
             "applicant_counsel": " Mr Julian Cooke and Ms Catherine\nBembrick.",
             "opponent_pa": "",
-            "opponent_counsel": " Mr Benjamin Fitzpatrick."
+            "opponent_counsel": " Mr Benjamin Fitzpatrick.",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/52.html"
+        },
+        {
+            "title": "CQMS Pty Ltd v ESCO Group LLC [2020] APO 54 (16 December 2020)",
+            "date": "16 December 2020",
+            "datetime": "2020-12-16",
+            "patent_application": "2016253640",
+            "patent_title": "Wear assembly",
+            "applicant": "ESCO Group LLC",
+            "opponent": "CQMS Pty Ltd",
+            "delegate": "Xavier Gisz",
+            "applicant_pa": "Rebecca Dutkowski and Shyama Jayaswal of\nMinterEllison and Wayne McMaster",
+            "applicant_counsel": "Tom Cordiner",
+            "opponent_pa": "Fraser Smith of Spruson & Ferguson",
+            "opponent_counsel": "Chris Burgess",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/54.html"
         },
         {
             "title": "Nufarm Australia Limited v Advanta Seeds Pty Ltd [2020] APO 51 (24 November 2020)",
@@ -110,21 +117,8 @@
             "applicant_pa": "",
             "applicant_counsel": "JM Hennessy SC and Ben Gardiner",
             "opponent_pa": "",
-            "opponent_counsel": "Benjamin J Fitzpatrick"
-        },
-        {
-            "title": "Mint Development Pty Ltd and Waste Diamond Solutions Pty Ltd v Jamil Rima [2020] APO 50 (20 November 2020)",
-            "date": "20 November 2020",
-            "datetime": "2020-11-20",
-            "patent_application": "2018200824",
-            "patent_title": "VALUABLE MATERIALS FROM SOLID ORGANIC WASTE (VMW)",
-            "applicant": "Jamil Rima",
-            "opponent": "",
-            "delegate": "C. A. Douglas",
-            "applicant_pa": " Self represented",
-            "applicant_counsel": "",
-            "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "Benjamin J Fitzpatrick",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/51.html"
         },
         {
             "title": "eBay Inc. [2020] APO 49 (20 November 2020)",
@@ -138,7 +132,23 @@
             "applicant_pa": "Representation: FPA Patent Attorneys Pty\nLtd",
             "applicant_counsel": "",
             "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/49.html"
+        },
+        {
+            "title": "Mint Development Pty Ltd and Waste Diamond Solutions Pty Ltd v Jamil Rima [2020] APO 50 (20 November 2020)",
+            "date": "20 November 2020",
+            "datetime": "2020-11-20",
+            "patent_application": "2018200824",
+            "patent_title": "VALUABLE MATERIALS FROM SOLID ORGANIC WASTE (VMW)",
+            "applicant": "Jamil Rima",
+            "opponent": "",
+            "delegate": "C. A. Douglas",
+            "applicant_pa": " Self represented",
+            "applicant_counsel": "",
+            "opponent_pa": "",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/50.html"
         },
         {
             "title": "Liquid Time Pty Ltd v Smartpark Technologies LLC [2020] APO 48 (19 November 2020)",
@@ -152,7 +162,8 @@
             "applicant_pa": "Representation:IP Gateway Patent and\nTrade Mark Attorneys Pty Ltd",
             "applicant_counsel": "",
             "opponent_pa": "Dark IP",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/48.html"
         },
         {
             "title": "Crown Melbourne Limited [2020] APO 47 (16 October 2020)",
@@ -166,7 +177,8 @@
             "applicant_pa": "Representation: Pini IP ",
             "applicant_counsel": "",
             "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/47.html"
         },
         {
             "title": "Gliknik, Inc. v CSL Behring Lengnau AG [2020] APO 46 (12 October 2020)",
@@ -180,7 +192,8 @@
             "applicant_pa": "",
             "applicant_counsel": "",
             "opponent_pa": " Anthony Shaw, Allens ",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/46.html"
         },
         {
             "title": "Merck & Cie [2020] APO 45 (7 October 2020)",
@@ -194,7 +207,8 @@
             "applicant_pa": "Representation:\t Patent attorney for the applicant:  Davies Collison Cave,\nSydney",
             "applicant_counsel": "",
             "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/45.html"
         },
         {
             "title": "EIS GmbH v Novoluto GmbH [2020] APO 44 (2 October 2020)",
@@ -208,7 +222,8 @@
             "applicant_pa": "Edward Quinn of Spruson &\nFerguson",
             "applicant_counsel": "Chris Burgess",
             "opponent_pa": "Lars Koch of Pizzeys Patent and Trade Mark Attorneys",
-            "opponent_counsel": "Ben Fitzpatrick"
+            "opponent_counsel": "Ben Fitzpatrick",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/44.html"
         },
         {
             "title": "Ono Pharmaceutical Co., Ltd. et al [2020] APO 43 (16 September 2020)",
@@ -222,7 +237,8 @@
             "applicant_pa": "",
             "applicant_counsel": "Bruce Cain SC, assisted by Marcus\nFleming of counsel",
             "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/43.html"
         },
         {
             "title": "Technological Resources Pty Ltd [2020] APO 42 (15 September 2020)",
@@ -236,7 +252,8 @@
             "applicant_pa": " Mr Nicholas Lakatos of Cotters Patent\n& Trade Mark Attorneys",
             "applicant_counsel": " Mr Julian Cooke and Ms Catherine\nBembrick",
             "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/42.html"
         },
         {
             "title": "Taranis Power Group Pty Ltd v LAA Industries Pty Ltd; Allied Pumps Pty Ltd v LAA Industries Pty Ltd; Stephen Anderson v LAA Industries Pty Ltd [2020] APO 41 (14 September 2020)",
@@ -250,7 +267,8 @@
             "applicant_pa": "",
             "applicant_counsel": "",
             "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/41.html"
         },
         {
             "title": "Boehringer Ingelheim Animal Health USA Inc.v Zoetis Services LLC [2020] APO 40 (28 August 2020)",
@@ -264,7 +282,8 @@
             "applicant_pa": "",
             "applicant_counsel": "Christian Dimitriadis SC and Clare\nCunliffe",
             "opponent_pa": "",
-            "opponent_counsel": " Patrick Flynn SC of Eleven Wentworth"
+            "opponent_counsel": " Patrick Flynn SC of Eleven Wentworth",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/40.html"
         },
         {
             "title": "EMD Millipore Corporation v Asahi Kasei Medical Co., Ltd. [2020] APO 39 (21 August 2020)",
@@ -278,21 +297,8 @@
             "applicant_pa": "Representation: Watermark Intellectual\nProperty Pty Ltd",
             "applicant_counsel": "",
             "opponent_pa": " Shelston IP Pty Ltd. ",
-            "opponent_counsel": ""
-        },
-        {
-            "title": "Jagwood Pty Ltd [2020] APO 38 (18 August 2020)",
-            "date": "18 August 2020",
-            "datetime": "2020-08-18",
-            "patent_application": "2018203015",
-            "patent_title": "Process of and Apparatus for Notification of Financial Documents and the Like",
-            "applicant": "Jagwood Pty Ltd",
-            "opponent": "",
-            "delegate": "Xavier Gisz",
-            "applicant_pa": "Jim Piper",
-            "applicant_counsel": "",
-            "opponent_pa": "",
-            "opponent_counsel": ""
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2020/39.html"
         }
     ]
 }
