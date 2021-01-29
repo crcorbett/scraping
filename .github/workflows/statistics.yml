@@ -25,7 +25,7 @@ jobs:
           r-version: ${{ matrix.R }}
       - name: Install packages
         run: |-
-          install.packages('tidyr')
+          install.packages('dplyr')
           install.packages('lubridate')
           install.packages('jsonlite')
           install.packages('naniar')
