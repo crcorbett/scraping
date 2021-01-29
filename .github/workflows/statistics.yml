@@ -1,13 +1,13 @@
 # This is a basic workflow that is manually triggered
 
-name: APO Decisions & FCA Filings Scraper
+name: Statistics
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/15 * * * *' # Run every 5 minutes
+    - cron: '*/20 * * * *' # Run every 20 minutes
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -18,7 +18,7 @@ jobs:
         R: [ 4 ]
     steps:
       - uses: actions/checkout@v2
-      - name: Setup R with version ${{ matrix.R }}
+        name: Setup R with version ${{ matrix.R }}
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
         with:
