@@ -23,8 +23,13 @@ jobs:
         uses: r-lib/actions/setup-r@v1
         with:
           r-version: ${{ matrix.R }}
+          
       - name: Install libcurl
         run: sudo apt-get install libcurl4-openssl-dev
+        
+      - name: Query dependencies
+        run: Rscript -e "install.packages('remotes')" -e "saveRDS(remotes::dev_package_deps(dependencies = TRUE), 'depends.Rds')"
+        
       - name: Cache R packages
         if: runner.os != 'Windows'
         uses: actions/cache@v2
@@ -32,6 +37,7 @@ jobs:
           path: ${{ env.R_LIBS_USER }}
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+      
       - name: Install packages
         run: |-
           install.packages('dplyr')
@@ -39,7 +45,6 @@ jobs:
           install.packages('jsonlite')
           install.packages('naniar')
           install.packages('curl')
-          
         shell: Rscript {0}
             
       - name: Run R script
