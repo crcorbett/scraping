@@ -24,7 +24,8 @@ jobs:
         with:
           r-version: ${{ matrix.R }}
       - name: Run scrapers
-        run: Rscript -e 'print("hello")'
+        run: |-
+          Rscript -e 'print("hello")'
 
       - name: Commit and push if it changed
         run: |-
