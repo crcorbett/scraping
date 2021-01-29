@@ -29,6 +29,7 @@ jobs:
           install.packages('lubridate')
           install.packages('jsonlite')
           install.packages('naniar')
+          install.packages('curl')
           
         shell: Rscript {0}
         
