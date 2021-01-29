@@ -1,8 +1,34 @@
 {
-	"miss_rep_14":"100",
-	"miss_rep_ann":"25",
-	"decisions_14":"10",
-	"decisions_ann":"34",
-	"top_rep_ann":"ACME Lawyer",
-	"top_rep_all":"EMCA Lawyer"
+  "miss_rep_14": "100",
+  "miss_rep_ann": "25",
+  "decisions_14": "10",
+  "decisions_ann": "34",
+  "top_rep_ann": "ACME Lawyer",
+  "top_rep_all": "EMCA Lawyer",
+  "decisions_month": [
+    {
+      "month": "2020-08-01",
+      "n": 2
+    },
+    {
+      "month": "2020-09-01",
+      "n": 3
+    },
+    {
+      "month": "2020-10-01",
+      "n": 4
+    },
+    {
+      "month": "2020-11-01",
+      "n": 4
+    },
+    {
+      "month": "2020-12-01",
+      "n": 5
+    },
+    {
+      "month": "2021-01-01",
+      "n": 2
+    }
+  ]
 }
