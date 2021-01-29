@@ -23,7 +23,8 @@ jobs:
         uses: r-lib/actions/setup-r@v1
         with:
           r-version: ${{ matrix.R }}
-          
+      - name: Install libcurl
+        run: sudo apt-get install libcurl4-openssl-dev
       - name: Cache R packages
         if: runner.os != 'Windows'
         uses: actions/cache@v2
