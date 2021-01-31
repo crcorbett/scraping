@@ -1,0 +1,16 @@
+{
+  "miss_rep_14": [0],
+  "miss_rep_ann": [15],
+  "decisions_14": [0],
+  "decisions_ann": [20],
+  "top_counsel": ["Chris Burgess"],
+  "top_pa": ["Fraser Smith of Spruson & Ferguson"],
+  "decisions_month_current": {
+    "month": ["2021-01-01"],
+    "n": [2]
+  },
+  "decisions_month_avg": {
+    "month": ["2020-08-01", "2020-09-01", "2020-10-01", "2020-11-01", "2020-12-01"],
+    "n": [2, 3, 4, 4, 5]
+  }
+}
