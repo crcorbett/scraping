@@ -1,5 +1,4 @@
-library(dplyr)
-library(tidyr)
+library(tidyverse)
 library(jsonlite)
 library(lubridate)
 library(naniar)
@@ -11,9 +10,27 @@ apo_data <- tbl_df(apo_data$decisions)
 apo_data$datetime <- ymd(apo_data$datetime)
 
 # Create statistics
-decisions_month_current <- apo_data %>% filter(year(datetime)==year(now(tzone="Australia/Melbourne")))  %>% group_by(month=floor_date(datetime, "month")) %>% count(month)
+decisions_month_current <- apo_data %>% 
+  filter(year(datetime)==year(now(tzone="Australia/Melbourne"))) %>% 
+  group_by(month=floor_date(datetime, "month")) %>% 
+  count(month)
 
-decisions_month_avg <- apo_data %>% filter(year(datetime)!=year(now(tzone="Australia/Melbourne")))  %>% group_by(month=floor_date(datetime, "month")) %>% count(month)
+months <- apo_data %>% 
+  filter(year(datetime)=='2020') %>% 
+  group_by(month=floor_date(datetime, "month")) %>% 
+  count() %>% 
+  select(month)
+
+mean <- apo_data %>% 
+  filter(year(datetime)!=year(now(tzone="Australia/Melbourne"))) %>% 
+  group_by(month=floor_date(datetime, "month")) %>% 
+  count(month) %>% 
+  group_by(month(month)) %>% 
+  summarise(mean=mean(n)) %>%
+  select(mean)
+
+decisions_month_avg$month <- months$month
+decisions_month_avg$n <- mean$mean
 
 miss_rep <- apo_data %>% filter(applicant_pa=='' | applicant_counsel=='' | opponent_pa=='' | opponent_counsel=='')
 
