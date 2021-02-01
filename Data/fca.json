@@ -2,6 +2,7 @@
     "filings": [
         {
             "title": "A2B AUSTRALIA LTD ACN 001 958 390 & ORS v DIGRAJ VERMA ABN 11 316 019 911 & ORS",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/SYG65/2021/actions",
             "file_number": "SYG65/2021",
             "filing_date": "11 January 2021",
             "filing_datetime": "2021-01-11",
@@ -19,7 +20,27 @@
             "respondent_representative": ""
         },
         {
+            "title": "COHGA PTY LTD v GOOGLE LLC",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID29/2021/actions",
+            "file_number": "VID29/2021",
+            "filing_date": "22 January 2021",
+            "filing_datetime": "2021-01-22",
+            "court": "Federal Court of Australia",
+            "registry": "Victoria Registry",
+            "type": "Trade marks",
+            "status": "Open",
+            "applicant": "COHGA PTY LTD",
+            "applicant_abn": "",
+            "applicant_acn": "",
+            "applicant_representative": "",
+            "respondent": "GOOGLE LLC",
+            "respondent_abn": "",
+            "respondent_acn": "",
+            "respondent_representative": ""
+        },
+        {
             "title": "SYDNEY OPERA HOUSE TRUST  v AUSTRALIA CHINA ECONOMICS, TRADE & CULTURE ASSOCIATION INCORPORATED",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1281/2020/actions",
             "file_number": "NSD1281/2020",
             "filing_date": "30 November 2020",
             "filing_datetime": "2020-11-30",
@@ -37,43 +58,8 @@
             "respondent_representative": "Addisons Lawyers"
         },
         {
-            "title": "ZZZ ATELIER PTY LTD v ADVWIN TRADING PTY LTD",
-            "file_number": "MLG3936/2020",
-            "filing_date": "02 November 2020",
-            "filing_datetime": "2020-11-02",
-            "court": "Federal Circuit Court - Federal Law",
-            "registry": "Melbourne Registry",
-            "type": "Design",
-            "status": "Closed",
-            "applicant": "ZZZ ATELIER PTY LTD",
-            "applicant_abn": "",
-            "applicant_acn": "",
-            "applicant_representative": "M+K Lawyers Group Pty Ltd",
-            "respondent": "ADVWIN TRADING PTY LTD",
-            "respondent_abn": "",
-            "respondent_acn": "",
-            "respondent_representative": ""
-        },
-        {
-            "title": "PRINTALY PTY LTD ACN 628 046 257 v INTERNATIONAL PHOTOGRAPHY CO PTY LTD ACN 629 940 325 & ORS",
-            "file_number": "SYG2389/2020",
-            "filing_date": "20 October 2020",
-            "filing_datetime": "2020-10-20",
-            "court": "Federal Circuit Court - Federal Law",
-            "registry": "Sydney Registry",
-            "type": "Trade marks",
-            "status": "Open",
-            "applicant": "PRINTALY PTY LTD",
-            "applicant_abn": "",
-            "applicant_acn": "628 046 257",
-            "applicant_representative": "Alder Ip",
-            "respondent": "INTERNATIONAL PHOTOGRAPHY CO PTY LTD & ORS",
-            "respondent_abn": "",
-            "respondent_acn": "629 940 325",
-            "respondent_representative": "Synkronos Legal"
-        },
-        {
             "title": "PARCHEM CONSTRUCTION SUPPLIES PTY LTD v JAMES HENRY GATELY & ORS",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID731/2020/actions",
             "file_number": "VID731/2020",
             "filing_date": "13 November 2020",
             "filing_datetime": "2020-11-13",
@@ -92,6 +78,7 @@
         },
         {
             "title": "JUBILANT GENERICS Limited v GENERIC PARTNERS PTY LTD (ACN 132 833 777) & ORS",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1342/2020/actions",
             "file_number": "NSD1342/2020",
             "filing_date": "17 December 2020",
             "filing_datetime": "2020-12-17",
@@ -110,6 +97,7 @@
         },
         {
             "title": "ATH (AUSTRALIA) PTY LTD  ACN 601 146 338 v ARROW PLASTICS PTY LTD ACN 003 671 949",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1218/2020/actions",
             "file_number": "NSD1218/2020",
             "filing_date": "06 November 2020",
             "filing_datetime": "2020-11-06",
@@ -128,6 +116,7 @@
         },
         {
             "title": "STEPHEN  MCCARTHY v CHATSWORTH CONSTRUCTIONS PTY LTD & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID15/2021/actions",
             "file_number": "VID15/2021",
             "filing_date": "13 January 2021",
             "filing_datetime": "2021-01-13",
@@ -145,25 +134,27 @@
             "respondent_representative": ""
         },
         {
-            "title": "OZCARE ACN 072 422 925 v AUSCARE HOME & COMMUNITY CARE LIMITED ACN 169 543 453",
-            "file_number": "NSD1155/2020",
-            "filing_date": "21 October 2020",
-            "filing_datetime": "2020-10-21",
-            "court": "Federal Court of Australia",
-            "registry": "New South Wales Registry",
-            "type": "",
+            "title": "TIMOTHY PAUL GUIDER v ROYAL BOTANIC GARDENS AND DOMAIN TRUST",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/SYG2535/2020/actions",
+            "file_number": "SYG2535/2020",
+            "filing_date": "09 November 2020",
+            "filing_datetime": "2020-11-09",
+            "court": "Federal Circuit Court - Federal Law",
+            "registry": "Sydney Registry",
+            "type": "Infringement",
             "status": "Open",
-            "applicant": "OZCARE",
+            "applicant": "TIMOTHY PAUL GUIDER",
             "applicant_abn": "",
-            "applicant_acn": "072 422 925",
-            "applicant_representative": "",
-            "respondent": "AUSCARE HOME & COMMUNITY CARE LIMITED",
+            "applicant_acn": "",
+            "applicant_representative": "Banki Haddock Fiora",
+            "respondent": "ROYAL BOTANIC GARDENS AND DOMAIN TRUST",
             "respondent_abn": "",
-            "respondent_acn": "169 543 453",
-            "respondent_representative": ""
+            "respondent_acn": "",
+            "respondent_representative": "Minter Ellison Lawyers"
         },
         {
             "title": "SCAFFLINK PTY LTD v SCAFFLINK AUSTRALIA PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/QUD346/2020/actions",
             "file_number": "QUD346/2020",
             "filing_date": "09 November 2020",
             "filing_datetime": "2020-11-09",
@@ -182,6 +173,7 @@
         },
         {
             "title": "IAN CUBITTS CLASSIC HOME IMPROVEMENTS PTY LTD ACN 068 798 158 v DAOUD BUILDING GROUP PTY LTD T/AS MASTER GRANNY FLATS ACN 120 836 080 & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/SYG2740/2020/actions",
             "file_number": "SYG2740/2020",
             "filing_date": "03 December 2020",
             "filing_datetime": "2020-12-03",
@@ -196,10 +188,11 @@
             "respondent": "DAOUD BUILDING GROUP PTY LTD T/AS MASTER GRANNY FLATS & ANOR",
             "respondent_abn": "",
             "respondent_acn": "120 836 080",
-            "respondent_representative": ""
+            "respondent_representative": "Ga Lawyers"
         },
         {
             "title": "CILAG GMBH INTERNATIONAL & ANOR v JUNO PHARMACEUTICALS PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1308/2020/actions",
             "file_number": "NSD1308/2020",
             "filing_date": "10 December 2020",
             "filing_datetime": "2020-12-10",
@@ -217,25 +210,8 @@
             "respondent_representative": "Biopharmalex"
         },
         {
-            "title": "HYPER ICE, INC. v BRENTON BRYCE PARKES & ANOR",
-            "file_number": "NSD1151/2020",
-            "filing_date": "20 October 2020",
-            "filing_datetime": "2020-10-20",
-            "court": "Federal Court of Australia",
-            "registry": "New South Wales Registry",
-            "type": "Infringement",
-            "status": "Closed",
-            "applicant": "HYPER ICE, INC.",
-            "applicant_abn": "",
-            "applicant_acn": "",
-            "applicant_representative": "Bird & Bird",
-            "respondent": "BRENTON BRYCE PARKES & ANOR",
-            "respondent_abn": "",
-            "respondent_acn": "",
-            "respondent_representative": ""
-        },
-        {
             "title": "SEALY TECHNOLOGY LLC & ANOR v SUPREME FURNITURE PTY LTD ACN 138 544 573 & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1217/2020/actions",
             "file_number": "NSD1217/2020",
             "filing_date": "04 November 2020",
             "filing_datetime": "2020-11-04",
@@ -254,6 +230,7 @@
         },
         {
             "title": "HELLS ANGELS MOTORCYCLE CORPORATION (AUSTRALIA) PTY LIMITED ACN 123 059 745 v REDBUBBLE LTD ACN 119 200 592 & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/QUD403/2020/actions",
             "file_number": "QUD403/2020",
             "filing_date": "31 December 2020",
             "filing_datetime": "2020-12-31",
@@ -272,6 +249,7 @@
         },
         {
             "title": "CLARENDON LAWYERS PTY LTD v CORNWALLS LAWYERS PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID831/2020/actions",
             "file_number": "VID831/2020",
             "filing_date": "29 December 2020",
             "filing_datetime": "2020-12-29",
@@ -289,25 +267,8 @@
             "respondent_representative": ""
         },
         {
-            "title": "RELEASE & RETRIEVE BOAT LATCH PTY LIMITED & ANOR v DUNBIER MARINE PRODUCTS PTY LTD & ORS",
-            "file_number": "SAD161/2020",
-            "filing_date": "03 November 2020",
-            "filing_datetime": "2020-11-03",
-            "court": "Federal Court of Australia",
-            "registry": "South Australia Registry",
-            "type": "Patents",
-            "status": "Open",
-            "applicant": "RELEASE & RETRIEVE BOAT LATCH PTY LIMITED & ANOR",
-            "applicant_abn": "",
-            "applicant_acn": "",
-            "applicant_representative": "Piper Alderman",
-            "respondent": "DUNBIER MARINE PRODUCTS PTY LTD & ORS",
-            "respondent_abn": "",
-            "respondent_acn": "",
-            "respondent_representative": "Ebm Legal"
-        },
-        {
             "title": "SUNLAND AUSTRALIA PTY LTD ACN 125 798 727 v DHO INVESTMENTS PTY LTD ACN 140 715",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/SYG2879/2020/actions",
             "file_number": "SYG2879/2020",
             "filing_date": "17 December 2020",
             "filing_datetime": "2020-12-17",
@@ -326,6 +287,7 @@
         },
         {
             "title": "JUNO PHARMACEUTICALS PTY LTD & ANOR v CELGENE CORPORATION",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID718/2020/actions",
             "file_number": "VID718/2020",
             "filing_date": "09 November 2020",
             "filing_datetime": "2020-11-09",
@@ -344,6 +306,7 @@
         },
         {
             "title": "TRISCO FOODS PTY LTD ACN 078 339 321 & ANOR v PETER SKARSHEWSKI & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/QUD366/2020/actions",
             "file_number": "QUD366/2020",
             "filing_date": "25 November 2020",
             "filing_datetime": "2020-11-25",
@@ -362,6 +325,7 @@
         },
         {
             "title": "VERASEAL PTY LIMITED (ACN 606 595 322) v COCA-COLA AMATIL LIMITED (ACN 004 139 397)",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1267/2020/actions",
             "file_number": "NSD1267/2020",
             "filing_date": "25 November 2020",
             "filing_datetime": "2020-11-25",
@@ -380,6 +344,7 @@
         },
         {
             "title": "COCKTAILS & CANVAS ASSET CORP PTY LTD v CORK & CHROMA PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID765/2020/actions",
             "file_number": "VID765/2020",
             "filing_date": "24 November 2020",
             "filing_datetime": "2020-11-24",
@@ -397,7 +362,46 @@
             "respondent_representative": "Thomson Geer"
         },
         {
+            "title": "SCHENCK PROCESS AUSTRALIA PTY LTD v DYNATRIM PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID20/2021/actions",
+            "file_number": "VID20/2021",
+            "filing_date": "14 January 2021",
+            "filing_datetime": "2021-01-14",
+            "court": "Federal Court of Australia",
+            "registry": "Victoria Registry",
+            "type": "Patents",
+            "status": "Open",
+            "applicant": "SCHENCK PROCESS AUSTRALIA PTY LTD",
+            "applicant_abn": "",
+            "applicant_acn": "",
+            "applicant_representative": "DLA Piper Australia",
+            "respondent": "DYNATRIM PTY LTD",
+            "respondent_abn": "",
+            "respondent_acn": "",
+            "respondent_representative": ""
+        },
+        {
+            "title": "EASY WAY STATION CO., LTD v MEETFRESH FRANCHISING PTY LTD ACN 149 827 485",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD34/2021/actions",
+            "file_number": "NSD34/2021",
+            "filing_date": "18 January 2021",
+            "filing_datetime": "2021-01-18",
+            "court": "Federal Court of Australia",
+            "registry": "New South Wales Registry",
+            "type": "Trade marks",
+            "status": "Open",
+            "applicant": "EASY WAY STATION CO., LTD",
+            "applicant_abn": "",
+            "applicant_acn": "",
+            "applicant_representative": "Murdockcheng Legal Practice",
+            "respondent": "MEETFRESH FRANCHISING PTY LTD",
+            "respondent_abn": "",
+            "respondent_acn": "149 827 485",
+            "respondent_representative": ""
+        },
+        {
             "title": "JAMIL RIMA v MINT DEVELOPMENT PTY LTD & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1328/2020/actions",
             "file_number": "NSD1328/2020",
             "filing_date": "11 December 2020",
             "filing_datetime": "2020-12-11",
@@ -416,6 +420,7 @@
         },
         {
             "title": "HORIZONS (ASIA) PTY LTD v ENAGIC CO., LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/NSD1313/2020/actions",
             "file_number": "NSD1313/2020",
             "filing_date": "14 December 2020",
             "filing_datetime": "2020-12-14",
@@ -434,6 +439,7 @@
         },
         {
             "title": "GEOCENTRIC OUTDOORS PTY LTD ACN 619 240 952 v NOTHIN BUT SHORTS (INTERNATIONAL) PTY LTD ACN 134 999 483",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/QUD383/2020/actions",
             "file_number": "QUD383/2020",
             "filing_date": "14 December 2020",
             "filing_datetime": "2020-12-14",
@@ -452,6 +458,7 @@
         },
         {
             "title": "TM INSIGHT OPERATIONS PTY LTD (ACN 638 506 340) v KYLE ROGERS & ANOR",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID813/2020/actions",
             "file_number": "VID813/2020",
             "filing_date": "21 December 2020",
             "filing_datetime": "2020-12-21",
@@ -466,10 +473,11 @@
             "respondent": "KYLE ROGERS & ANOR",
             "respondent_abn": "",
             "respondent_acn": "",
-            "respondent_representative": "Gadens Lawyers"
+            "respondent_representative": "Wotton & Kearney Lawyers"
         },
         {
             "title": "PBM ELECTRICS PTY LTD ACN 133 403 086 v VORTEX GROUP OF COMPANIES PTY LTD ACN 612 205 919",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/QUD370/2020/actions",
             "file_number": "QUD370/2020",
             "filing_date": "27 November 2020",
             "filing_datetime": "2020-11-27",
@@ -488,6 +496,7 @@
         },
         {
             "title": "SOVEREIGN HYDROSEAL PTY LTD ACN 123 696 926 & ORS v JOHANNES MACHIEL  STEYNBERG",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/WAD264/2020/actions",
             "file_number": "WAD264/2020",
             "filing_date": "20 November 2020",
             "filing_datetime": "2020-11-20",
@@ -505,25 +514,27 @@
             "respondent_representative": ""
         },
         {
-            "title": "TIMOTHY PAUL GUIDER v ROYAL BOTANIC GARDENS AND DOMAIN TRUST",
-            "file_number": "SYG2535/2020",
-            "filing_date": "09 November 2020",
-            "filing_datetime": "2020-11-09",
-            "court": "Federal Circuit Court - Federal Law",
-            "registry": "Sydney Registry",
-            "type": "Infringement",
+            "title": "SEED TERMINATOR HOLDINGS PTY LTD v DEAN MAYERLE",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/WAD10/2021/actions",
+            "file_number": "WAD10/2021",
+            "filing_date": "27 January 2021",
+            "filing_datetime": "2021-01-27",
+            "court": "Federal Court of Australia",
+            "registry": "Western Australia Registry",
+            "type": "Patents",
             "status": "Open",
-            "applicant": "TIMOTHY PAUL GUIDER",
+            "applicant": "SEED TERMINATOR HOLDINGS PTY LTD",
             "applicant_abn": "",
             "applicant_acn": "",
             "applicant_representative": "",
-            "respondent": "ROYAL BOTANIC GARDENS AND DOMAIN TRUST",
+            "respondent": "DEAN MAYERLE",
             "respondent_abn": "",
             "respondent_acn": "",
-            "respondent_representative": "Minter Ellison Lawyers"
+            "respondent_representative": ""
         },
         {
             "title": "SKG CLEANING SERVICES PTY LTD ABN 45 162 372 125 v SANIKLEEN GROUP PTY LTD ABN 27 622 275 987",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/SYG2811/2020/actions",
             "file_number": "SYG2811/2020",
             "filing_date": "09 December 2020",
             "filing_datetime": "2020-12-09",
@@ -542,6 +553,7 @@
         },
         {
             "title": "O2 TECHNOLOGY PTY LTD v O2 ONLINE PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/VID721/2020/actions",
             "file_number": "VID721/2020",
             "filing_date": "11 November 2020",
             "filing_datetime": "2020-11-11",
@@ -557,6 +569,25 @@
             "respondent_abn": "",
             "respondent_acn": "",
             "respondent_representative": "Mills Oakley Lawyers"
+        },
+        {
+            "title": "STAR CAR WASH CAFE HOLDINGS PTY LTD v SHINING STAR HAND CAR WASH PTY LTD",
+            "link": "https://www.comcourts.gov.au/file/Federal/P/MLG98/2021/actions",
+            "file_number": "MLG98/2021",
+            "filing_date": "20 January 2021",
+            "filing_datetime": "2021-01-20",
+            "court": "Federal Circuit Court - Federal Law",
+            "registry": "Melbourne Registry",
+            "type": "Trade marks",
+            "status": "Open",
+            "applicant": "STAR CAR WASH CAFE HOLDINGS PTY LTD",
+            "applicant_abn": "",
+            "applicant_acn": "",
+            "applicant_representative": "Robert James Lawyers",
+            "respondent": "SHINING STAR HAND CAR WASH PTY LTD",
+            "respondent_abn": "",
+            "respondent_acn": "",
+            "respondent_representative": ""
         }
     ]
 }
