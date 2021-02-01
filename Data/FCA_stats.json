@@ -1,0 +1,15 @@
+{
+  "miss_rep_14": [4],
+  "miss_rep_ann": [15],
+  "filings_14": [4],
+  "filings_ann": [31],
+  "top_representative": ["Spruson & Ferguson Lawyers", "Banki Haddock Fiora", "Addisons Lawyers"],
+  "filings_month_current": {
+    "month": ["2021-01-01"],
+    "n": [7]
+  },
+  "filings_month_avg": {
+    "month": ["2020-11-01", "2020-12-01"],
+    "n": [13, 11]
+  }
+}
