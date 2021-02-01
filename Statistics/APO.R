@@ -6,7 +6,7 @@ library(naniar)
 
 # Load data
 apo_data <- fromJSON('https://raw.githubusercontent.com/crcorbett/scraping/main/Data/apo.json')
-apo_data <- tbl_df(apo_data$decisions)
+apo_data <- as_tibble(apo_data$decisions)
 
 apo_data$datetime <- ymd(apo_data$datetime)
 
@@ -30,8 +30,10 @@ mean <- apo_data %>%
   summarise(mean=mean(n)) %>%
   select(mean)
 
-decisions_month_avg$month <- months$month
-decisions_month_avg$n <- mean$mean
+decisions_month_avg <- tibble(month=months$month, n=mean$mean)
+
+#decisions_month_avg$month <- months$month
+#decisions_month_avg$n <- mean$mean
 
 miss_rep <- apo_data %>% filter(applicant_pa=='' | applicant_counsel=='' | opponent_pa=='' | opponent_counsel=='')
 
