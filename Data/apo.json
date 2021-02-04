@@ -1,6 +1,21 @@
 {
     "decisions": [
         {
+            "title": "MineRP IP Inc. [2021] APO 3 (1 February 2021)",
+            "date": "01 February 2021",
+            "datetime": "2021-02-01",
+            "patent_application": "2018200990",
+            "patent_title": "A System and a Method for Depletable, Natural Asset Management, Accounting and Analysis",
+            "applicant": "MineRP IP Inc.\n",
+            "opponent": "",
+            "delegate": "M. G. Kraefft",
+            "applicant_pa": "Representation: FPA Patent\nAttorneys.",
+            "applicant_counsel": "",
+            "opponent_pa": "",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/3.html"
+        },
+        {
             "title": "Factor Financial Analytics Pty Ltd v Xero Limited [2021] APO 2 (13 January 2021)",
             "date": "13 January 2021",
             "datetime": "2021-01-13",
