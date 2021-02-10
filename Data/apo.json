@@ -1,6 +1,21 @@
 {
     "decisions": [
         {
+            "title": "Andrew Bodlovich and Kevin Gleeson v Green Camel Pty Limited [2021] APO 6 (9 February 2021)",
+            "date": "09 February 2021",
+            "datetime": "2021-02-09",
+            "patent_application": "2017258843",
+            "patent_title": "Frameworks and methodologies configured to enable soil-based production of plants",
+            "applicant": "Green Camel Pty Limited",
+            "opponent": "",
+            "delegate": "Felix White",
+            "applicant_pa": "",
+            "applicant_counsel": "",
+            "opponent_pa": "",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/6.html"
+        },
+        {
             "title": "Stephen L. Thaler [2021] APO 5 (9 February 2021)",
             "date": "09 February 2021",
             "datetime": "2021-02-09",
