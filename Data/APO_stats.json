@@ -1,13 +1,13 @@
 {
-  "miss_rep_14": [75],
-  "miss_rep_ann": [112],
-  "decisions_14": [75],
-  "decisions_ann": [122],
+  "miss_rep_14": [76],
+  "miss_rep_ann": [113],
+  "decisions_14": [76],
+  "decisions_ann": [123],
   "top_counsel": ["Chris Burgess"],
   "top_pa": ["Representation: Griffith Hack"],
   "decisions_month_current": {
     "month": ["2021-01-01", "2021-02-01"],
-    "n": [2, 75]
+    "n": [2, 76]
   },
   "decisions_month_avg": {
     "month": ["2020-01-01", "2020-02-01", "2020-03-01", "2020-04-01", "2020-05-01", "2020-06-01", "2020-07-01", "2020-08-01", "2020-09-01", "2020-10-01", "2020-11-01", "2020-12-01"],
