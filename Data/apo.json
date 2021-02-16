@@ -1,6 +1,21 @@
 {
     "decisions": [
         {
+            "title": "Amazon Technologies, Inc. [2021] APO 7 (16 February 2021)",
+            "date": "16 February 2021",
+            "datetime": "2021-02-16",
+            "patent_application": "2018204629",
+            "patent_title": "ROLLING RESOURCE CREDITS FOR SCHEDULING OF VIRTUAL COMPUTER RESOURCES",
+            "applicant": "Amazon Technologies, Inc.",
+            "opponent": "",
+            "delegate": "Mr Kevin Restrick",
+            "applicant_pa": "",
+            "applicant_counsel": "",
+            "opponent_pa": "",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/7.html"
+        },
+        {
             "title": "Stephen L. Thaler [2021] APO 5 (9 February 2021)",
             "date": "09 February 2021",
             "datetime": "2021-02-09",
