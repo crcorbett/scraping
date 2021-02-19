@@ -1,6 +1,21 @@
 {
     "decisions": [
         {
+            "title": "Dynamic Suspensions Pty Ltd v Elizabeth Anne MOLNAR [2021] APO 8 (19 February 2021)",
+            "date": "19 February 2021",
+            "datetime": "2021-02-19",
+            "patent_application": "2016247125",
+            "patent_title": "Leaf Spring System and a Reinforcing Spring for a Leaf Spring System",
+            "applicant": "Elizabeth Anne MOLNAR",
+            "opponent": "Dynamic Suspensions Pty Ltd",
+            "delegate": "R Subbarayan",
+            "applicant_pa": "Representation:Baxter Patent Attorneys\nPty Ltd",
+            "applicant_counsel": "",
+            "opponent_pa": "IP GATEWAY Patent & Trade Mark Attorneys Pty Ltd",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/8.html"
+        },
+        {
             "title": "Amazon Technologies, Inc. [2021] APO 7 (16 February 2021)",
             "date": "16 February 2021",
             "datetime": "2021-02-16",
