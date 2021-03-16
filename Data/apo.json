@@ -1,6 +1,21 @@
 {
     "decisions": [
         {
+            "title": "DEI GRATIA PTY LTD [2021] APO 14 (16 March 2021)",
+            "date": "16 March 2021",
+            "datetime": "2021-03-16",
+            "patent_application": "2019200581",
+            "patent_title": "LAST MILE LOGISTICS",
+            "applicant": "DEI GRATIA PTY LTD",
+            "opponent": "",
+            "delegate": "Mr Kevin Restrick",
+            "applicant_pa": "Representation:FAL IP",
+            "applicant_counsel": "",
+            "opponent_pa": "",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/14.html"
+        },
+        {
             "title": "Dow AgroSciences LLC v Bayer Intellectual Property GmbH [2021] APO 13 (2 March 2021)",
             "date": "02 March 2021",
             "datetime": "2021-03-02",
