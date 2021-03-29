@@ -1,6 +1,21 @@
 {
     "decisions": [
         {
+            "title": "Phoenix Contact GmbH & Co. KG v Pivot Electronics Pty Ltd [2021] APO 16 (29 March 2021)",
+            "date": "29 March 2021",
+            "datetime": "2021-03-29",
+            "patent_application": "2014253680",
+            "patent_title": "Terminal and Disconnection Link",
+            "applicant": "Pivot\nElectronics Pty Ltd",
+            "opponent": "Phoenix Contact GmbH & Co. KG  ",
+            "delegate": "M. G. Kraefft",
+            "applicant_pa": "",
+            "applicant_counsel": "",
+            "opponent_pa": "",
+            "opponent_counsel": "",
+            "link": "https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/APO//2021/16.html"
+        },
+        {
             "title": "Michele Caboni [2021] APO 15 (24 March 2021)",
             "date": "24 March 2021",
             "datetime": "2021-03-24",
